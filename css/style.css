@@ -19,6 +19,7 @@ body {
 }
 
 .my-name-section h1 {
+  display: inline;
   font-size: 5em;
     color: #E8E8E8;
     margin-top: 1em;
@@ -26,58 +27,47 @@ body {
 }
 
 .my-name-section  a {
-  /*text-shadow:
-    0px -2px 0 #cac6c5,
-    0px 2px 0 #cac6c5,
-    2px 0px 0 #cac6c5,
-    -2px 0px 0 #cac6c5,
-    -2px -2px 0 #cac6c5,
-    -2px 2px 0 #cac6c5,
-    2px -2px 0 #cac6c5,
-    2px 2px 0 #cac6c5,
-    2px 2px 0 #cac6c5;*/
 		text-shadow:
-	    1px 1px 0 #cac6c5,
-	    2px 2px 0 #cac6c5,
-	    3px 3px 0 #cac6c5,
-	    4px 4px 0 #cac6c5,
-	    5px 5px 0 #cac6c5,
-	    6px 6px 0 #cac6c5,
-	    7px 7px 0 #cac6c5,
-	    8px 8px 0 #cac6c5,
-	    9px 9px 0 #cac6c5,
-	    10px 10px 0 #cac6c5,
-	    11px 11px 0 #cac6c5;
-    transition: all 700ms ease;
-		transition-delay: 600ms;
+	    1px 1px 0 #c3c3c3,
+	    2px 2px 0 #c3c3c3,
+	    3px 3px 0 #c3c3c3,
+	    4px 4px 0 #c3c3c3,
+	    5px 5px 0 #c3c3c3,
+	    6px 6px 0 #c3c3c3,
+	    7px 7px 0 #c3c3c3,
+	    8px 8px 0 #c3c3c3,
+	    9px 9px 0 #c3c3c3,
+	    10px 10px 0 #c3c3c3,
+	    11px 11px 0 #c3c3c3;
+    transition: all 300ms cubic-bezier(0, 0.24, 1, 1);
 }
 
 .my-name-section a:hover {
-	transition-delay: 0s;
   text-shadow:
-    1px 1px 0 #cac6c5,
-    2px 2px 0 #cac6c5,
-    3px 3px 0 #cac6c5,
-    4px 4px 0 #cac6c5,
-    5px 5px 0 #cac6c5,
-    6px 6px 0 #cac6c5,
-    7px 7px 0 #cac6c5,
-    8px 8px 0 #cac6c5,
-    9px 9px 0 #cac6c5,
-    11px 11px 0 #cac6c5,
-    12px 12px 0 #cac6c5,
-    13px 13px 0 #cac6c5,
-    14px 14px 0 #cac6c5,
-    15px 15px 0 #cac6c5,
-    16px 16px 0 #cac6c5,
-    17px 17px 0 #cac6c5,
-    18px 18px 0 #cac6c5,
-    19px 19px 0 #cac6c5,
-    20px 20px 0 #cac6c5,
-    21px 21px 0 #cac6c5,
-    22px 22px 0 #cac6c5,
-    23px 23px 0 #cac6c5,
-    24px 24px 0 #cac6c5;
+    1px 1px 0 #c3c3c3,
+    2px 2px 0 #c3c3c3,
+    3px 3px 0 #c3c3c3,
+    4px 4px 0 #c3c3c3,
+    5px 5px 0 #c3c3c3,
+    6px 6px 0 #c3c3c3,
+    7px 7px 0 #c3c3c3,
+    8px 8px 0 #c3c3c3,
+    9px 9px 0 #c3c3c3,
+    10px 10px 0 #c3c3c3,
+    11px 11px 0 #c3c3c3,
+    12px 12px 0 #c3c3c3,
+    13px 13px 0 #c3c3c3,
+    14px 14px 0 #c3c3c3,
+    15px 15px 0 #c3c3c3,
+    16px 16px 0 #c3c3c3,
+    17px 17px 0 #c3c3c3,
+    18px 18px 0 #c3c3c3,
+    19px 19px 0 #c3c3c3,
+    20px 20px 0 #c3c3c3,
+    21px 21px 0 #c3c3c3,
+    22px 22px 0 #c3c3c3,
+    23px 23px 0 #c3c3c3,
+    24px 24px 0 #c3c3c3;
 }
 
 .my-menu-section ul {
@@ -87,6 +77,7 @@ body {
 
 .my-menu-section li {
 	display: inline-block;
+  color: rgb(103, 103, 103)
 }
 
 .my-menu-section li:after {
@@ -101,5 +92,9 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 15px;
-	color: rgb(23, 23, 23)
+	color: rgb(103, 103, 103)
+}
+
+.my-menu-section a:hover {
+  color: rgb(42, 42, 42)
 }
