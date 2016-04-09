@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+	background-color: #f1f1f1;
+}
+
+.my-name-section {
+	height: 70%;
+}
+
+.my-menu-section {
+	height: 30%;
+}
+
+.my-name-section h1 {
+  font-size: 5em;
+    color: #E8E8E8;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.my-name-section  a {
+  /*text-shadow:
+    0px -2px 0 #cac6c5,
+    0px 2px 0 #cac6c5,
+    2px 0px 0 #cac6c5,
+    -2px 0px 0 #cac6c5,
+    -2px -2px 0 #cac6c5,
+    -2px 2px 0 #cac6c5,
+    2px -2px 0 #cac6c5,
+    2px 2px 0 #cac6c5,
+    2px 2px 0 #cac6c5;*/
+		text-shadow:
+	    1px 1px 0 #cac6c5,
+	    2px 2px 0 #cac6c5,
+	    3px 3px 0 #cac6c5,
+	    4px 4px 0 #cac6c5,
+	    5px 5px 0 #cac6c5,
+	    6px 6px 0 #cac6c5,
+	    7px 7px 0 #cac6c5,
+	    8px 8px 0 #cac6c5,
+	    9px 9px 0 #cac6c5,
+	    10px 10px 0 #cac6c5,
+	    11px 11px 0 #cac6c5;
+    transition: all 700ms ease;
+		transition-delay: 600ms;
+}
+
+.my-name-section a:hover {
+	transition-delay: 0s;
+  text-shadow:
+    1px 1px 0 #cac6c5,
+    2px 2px 0 #cac6c5,
+    3px 3px 0 #cac6c5,
+    4px 4px 0 #cac6c5,
+    5px 5px 0 #cac6c5,
+    6px 6px 0 #cac6c5,
+    7px 7px 0 #cac6c5,
+    8px 8px 0 #cac6c5,
+    9px 9px 0 #cac6c5,
+    11px 11px 0 #cac6c5,
+    12px 12px 0 #cac6c5,
+    13px 13px 0 #cac6c5,
+    14px 14px 0 #cac6c5,
+    15px 15px 0 #cac6c5,
+    16px 16px 0 #cac6c5,
+    17px 17px 0 #cac6c5,
+    18px 18px 0 #cac6c5,
+    19px 19px 0 #cac6c5,
+    20px 20px 0 #cac6c5,
+    21px 21px 0 #cac6c5,
+    22px 22px 0 #cac6c5,
+    23px 23px 0 #cac6c5,
+    24px 24px 0 #cac6c5;
+}
+
+.my-menu-section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.my-menu-section li {
+	display: inline-block;
+}
+
+.my-menu-section li:after {
+	content: " \2022 "
+}
+
+.my-menu-section li:last-child:after {
+	content: ""
+}
+
+.my-menu-section a {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 15px;
+	color: rgb(23, 23, 23)
+}
