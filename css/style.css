@@ -26,8 +26,9 @@ body {
     text-align: center;
 }
 
-.my-name-section  a {
-		text-shadow:
+.my-name-section a {
+    margin-left: -11px;  
+    text-shadow:
 	    1px 1px 0 #c3c3c3,
 	    2px 2px 0 #c3c3c3,
 	    3px 3px 0 #c3c3c3,
