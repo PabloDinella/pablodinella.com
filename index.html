@@ -7,37 +7,68 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 		<link rel="shortcut icon" type="image/png" href="ico.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 
-		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-		<link rel="stylesheet" href="css/style.css" media="screen" title="styles" charset="utf-8">
+		<style media="screen">
+			body {
+				padding-left: 5vw;
+				padding-right: 5vw;
+				font-size: 2em;
+				font-family: "Titillium Web";
+				color: #333;
+			}
 
+			@media (min-width: 1920px) {
+				body {
+					padding-right: 40vw;
+				}
+				dl {
+					margin-right: 30vw;
+				}
+			}
+
+			@media (min-width: 1280px) {
+				body {
+					padding-right: 20vw;
+				}
+			}
+
+			h1 {
+				font-family: "Amaranth";
+			}
+
+			dt {
+				font-weight: bold;
+			}
+		</style>
 	</head>
 	<body>
+		<header>
+			<h1>Pablo R. Dinella</h1>
+		</header>
+		<article>
+			<p>Desenvolvedor web. Atualmente disponível. Trabalhei na <a href="https://visie.com.br/">Visie Padrões Web</a> como frontend na construção de sites de grandes marcas, e na <a href="https://www.bibliaonline.com.br/">Bíblia Online</a>, com tecnologias como ES2015, React, Redux e Saga.</p>
 
-		<div class="ui middle aligned centered grid main">
-      <div class="row my-name-section">
+			<p>Entre meus projetos pessoais estão:</p>
 
-				<div class="column text-center center aligned my-name">
-          <a href="#"><h1>Pablo R. Dinella</h1></a>
-        </div>
+			<dl>
+				<dt>meu TCC</dt>
+				<dd>PWA sobre o campus da FATEC-SP, feito com React e integração com Google Maps</dd>
+				<dt>tg-list</dt>
+				<dd>Site agregador de grupos, canais e bots do <a href="#">Telegram</a>, feito com <a href="#">web2py</a> (framework), a nova versão será com React + Firebase</dd>
+				<dt>tg-list-bot</dt>
+				<dd>Bot do Telegram para integração com o projeto acima (sugerir adição grupos/canais/bots + busca e listagem)</dd>
+			</dl>
 
-      </div>
-      <div class="row my-menu-section">
+			<p></p>
 
-				<div class="column text-center center aligned">
-					<ul>
-						<li><a href="http://pablodinella.github.io/">Todo Dia Algo Novo</a></li>
-						<li><a href="https://www.youtube.com/user/PabloRDVideos/">YouTube</a></li>
-						<li><a href="mailto:pablo.dinella@gmail.com">Contato</a></li>
-						<li><a href="http://github.com/PabloDinella">GitHub</a></li>
-					</ul>
-        </div>
-
-      </div>
-    </div>
-
-		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-		<script src="semantic/dist/semantic.min.js"></script>
-		<script src="js/script.js" charset="utf-8"></script>
+      <ul>
+      	<li><a href="http://pablodinella.github.io/">Todo Dia Algo Novo</a></li>
+      	<li><a href="https://www.youtube.com/user/PabloRDVideos/">YouTube</a></li>
+      	<li><a href="mailto:pablo.dinella@gmail.com">Contato</a></li>
+      	<li><a href="http://github.com/PabloDinella">GitHub</a></li>
+      </ul>
+    </article>
 	</body>
 </html>
