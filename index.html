@@ -14,23 +14,36 @@
 			body {
 				padding-left: 5vw;
 				padding-right: 5vw;
-				font-size: 2em;
 				font-family: "Titillium Web";
+				font-size: 1.3em;
 				color: #333;
 			}
 
-			@media (min-width: 1920px) {
+			dt, dd {
+				--dtsize: 100px;
+			}
+
+			@media (min-width: 1850px) {
 				body {
 					padding-right: 40vw;
 				}
-				dl {
-					margin-right: 30vw;
+			}
+
+			@media (min-width: 1280px) and (max-width: 1849px) {
+				body {
+					padding-right: 20vw;
 				}
 			}
 
-			@media (min-width: 1280px) {
+			@media (min-width: 1024px) {
 				body {
-					padding-right: 20vw;
+					font-size: 1.5em;
+				}
+				dl {
+					margin-right: 20%;
+				}
+				dt, dd {
+					--dtsize: 150px;
 				}
 			}
 
@@ -38,8 +51,35 @@
 				font-family: "Amaranth";
 			}
 
+			a {
+				text-decoration: none;
+				color: inherit;
+				opacity: 0.8;
+				font-weight: 600;
+			}
+
+			a:hover {
+				opacity: 1;
+			}
+
+			dl {
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 40px;
+				font-size: 0.9em;
+			}
+
 			dt {
+				flex: 0 0 var(--dtsize);
+				margin-bottom: 20px;
+				padding-right: 25px;
 				font-weight: bold;
+				text-align: right;
+			}
+
+			dd {
+				flex: 0 0 calc(100% - var(--dtsize) - 25px);
+				margin: 0 0 20px 0;
 			}
 		</style>
 	</head>
