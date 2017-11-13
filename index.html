@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<title></title>
@@ -12,11 +12,77 @@
 
 		<style media="screen">
 			body {
-				padding-left: 5vw;
-				padding-right: 5vw;
+				/*padding-left: 5vw;*/
+				/*padding-right: 5vw;*/
+				margin: 0 20px;
+				padding: 0;
+				display: flex;
+				flex-flow: column;
+				align-items: center;
 				font-family: "Titillium Web";
 				font-size: 1.3em;
 				color: #333;
+				hyphens: auto;
+			}
+
+			header, footer {
+				padding: 30px;
+				text-align: center;
+			}
+
+			article {
+				max-width: 800px;
+				text-align: justify;
+			}
+
+			p:first-child {
+				margin-top: 0;
+			}
+
+			footer ul {
+				list-style: none;
+				display: flex;
+				flex-flow: column;
+				justify-content: center;
+				padding: 0;
+				font-size: 0.9em;
+			}
+
+			footer ul li a {
+				padding: 10px 15px;
+				width: 100%;
+				border-radius: 6px;
+				background: #eee;
+			}
+
+			footer ul li {
+				display: flex;
+				flex: 1;
+				margin-bottom: 20px;
+			}
+
+			footer ul span {
+				/*display: block;*/
+				font-weight: normal;
+			}
+
+			@media (min-width: 376px) {
+				body {
+					margin: 0 40px;
+				}
+
+				footer ul {
+					flex-flow: row;
+					flex-wrap: wrap;
+				}
+
+				footer ul li {
+					flex: none;
+				}
+
+				footer ul li:not(:last-child) {
+					margin-right: 20px;
+				}
 			}
 
 			dt, dd {
@@ -25,13 +91,13 @@
 
 			@media (min-width: 1850px) {
 				body {
-					padding-right: 40vw;
+					/*padding-right: 40vw;*/
 				}
 			}
 
 			@media (min-width: 1280px) and (max-width: 1849px) {
 				body {
-					padding-right: 20vw;
+					/*padding-right: 20vw;*/
 				}
 			}
 
@@ -40,10 +106,10 @@
 					font-size: 1.5em;
 				}
 				dl {
-					margin-right: 20%;
+					/*margin-right: 20%;*/
 				}
 				dt, dd {
-					--dtsize: 150px;
+					--dtsize: 100px;
 				}
 			}
 
@@ -68,6 +134,7 @@
 				display: flex;
 				flex-wrap: wrap;
 				margin-top: 40px;
+				margin-bottom: 0;
 				font-size: 0.9em;
 			}
 
@@ -79,10 +146,14 @@
 				text-align: right;
 			}
 
+			dt:last-child {margin-bottom: 0}
+
 			dd {
 				flex: 0 0 calc(100% - var(--dtsize) - 25px);
 				margin: 0 0 20px 0;
 			}
+
+			dd:last-child {margin-bottom: 0}
 		</style>
 	</head>
 	<body>
@@ -95,23 +166,22 @@
 			<p>Entre meus projetos pessoais estão:</p>
 
 			<dl>
-				<dt>meu TCC</dt>
+				<dt><a href="https://github.com/PabloDinella/fatec-sp-campus" target="_blank">meu TCC</a></dt>
 				<dd>PWA sobre o campus da FATEC-SP, feito com React e integração com Google Maps</dd>
-				<dt>tg-list</dt>
-				<dd>Site agregador de grupos, canais e bots do <a href="#">Telegram</a>, feito com <a href="#">web2py</a> (framework), a nova versão será com React + Firebase</dd>
-				<dt>tg-list-bot</dt>
+				<dt><a href="https://github.com/PabloDinella/tg-list" target="_blank">tg-list</a></dt>
+				<dd>Site agregador de grupos, canais e bots do <a href="https://telegram.org/" target="_blank">Telegram</a>, feito com <a href="http://web2py.com/" target="_blank">web2py</a> (framework), a nova versão será com React + Firebase</dd>
+				<dt><a href="https://github.com/marcel-carvalho/bot-grupos_ti" target="_blank">tg-list-bot</a></dt>
 				<dd>Bot do Telegram para integração com o projeto acima (sugerir adição grupos/canais/bots + busca e listagem)</dd>
 			</dl>
-
-			<p>Links:</p>
-
-      <ul>
-      	<li><a href="http://pablodinella.github.io/">Todo Dia Algo Novo <small>(blog)</small></a></li>
-      	<li><a href="https://www.youtube.com/user/PabloRDVideos/">YouTube <small>(linux & programação)</small></a></li>
-      	<li><a href="https://www.youtube.com/channel/UC5VFF5_rnp5odSjy7Md-ITA">YouTube <small>(Team Fortress 2)</small></a></li>
-      	<li><a href="mailto:pablo.dinella@gmail.com">@</a></li>
-      	<li><a href="http://github.com/PabloDinella">GitHub</a></li>
-      </ul>
     </article>
+		<footer>
+      <ul>
+      	<li><a href="http://pablodinella.github.io/" target="_blank">Todo Dia Algo Novo <span>✍️</span></a></li>
+      	<li><a href="https://www.youtube.com/user/PabloRDVideos/" target="_blank">YouTube <span>💻</span></a></li>
+      	<li><a href="https://www.youtube.com/channel/UC5VFF5_rnp5odSjy7Md-ITA" target="_blank">YouTube <span>🎮</span></a></li>
+      	<li><a href="mailto:pablo.dinella@gmail.com" target="_blank">@ <span>📧</span></a></li>
+      	<li><a href="http://github.com/PabloDinella" target="_blank">GitHub</a></li>
+      </ul>
+		</footer>
 	</body>
 </html>
