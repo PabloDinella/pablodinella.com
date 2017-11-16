@@ -12,8 +12,6 @@
 
 		<style media="screen">
 			body {
-				/*padding-left: 5vw;*/
-				/*padding-right: 5vw;*/
 				margin: 0 20px;
 				padding: 0;
 				display: flex;
@@ -62,55 +60,7 @@
 			}
 
 			footer ul span {
-				/*display: block;*/
 				font-weight: normal;
-			}
-
-			@media (min-width: 376px) {
-				body {
-					margin: 0 40px;
-				}
-
-				footer ul {
-					flex-flow: row;
-					flex-wrap: wrap;
-				}
-
-				footer ul li {
-					flex: none;
-				}
-
-				footer ul li:not(:last-child) {
-					margin-right: 20px;
-				}
-			}
-
-			dt, dd {
-				--dtsize: 100px;
-			}
-
-			@media (min-width: 1850px) {
-				body {
-					/*padding-right: 40vw;*/
-				}
-			}
-
-			@media (min-width: 1280px) and (max-width: 1849px) {
-				body {
-					/*padding-right: 20vw;*/
-				}
-			}
-
-			@media (min-width: 1024px) {
-				body {
-					font-size: 1.5em;
-				}
-				dl {
-					/*margin-right: 20%;*/
-				}
-				dt, dd {
-					--dtsize: 100px;
-				}
 			}
 
 			h1 {
@@ -130,30 +80,56 @@
 
 			a > small {font-weight: normal}
 
-			dl {
-				display: flex;
-				flex-wrap: wrap;
-				margin-top: 40px;
-				margin-bottom: 0;
-				font-size: 0.9em;
+			@media (min-width: 376px) {
+				body {margin: 0 40px}
 			}
 
-			dt {
-				flex: 0 0 var(--dtsize);
-				margin-bottom: 20px;
-				padding-right: 25px;
-				font-weight: bold;
-				text-align: right;
+			@media (min-width: 500px) {
+				footer ul {
+					flex-flow: row;
+					flex-wrap: wrap;
+				}
+
+				footer ul li {
+					flex: none;
+				}
+
+				footer ul li:not(:last-child) {
+					margin-right: 20px;
+				}
+				
+				dt, dd {--dtsize: 100px}
+
+				dl {
+					display: flex;
+					flex-wrap: wrap;
+					margin-top: 40px;
+					margin-bottom: 0;
+					font-size: 0.9em;
+				}
+
+				dt {
+					flex: 0 0 var(--dtsize);
+					margin-bottom: 20px;
+					padding-right: 25px;
+					font-weight: bold;
+					text-align: right;
+				}
+
+				dt:last-child {margin-bottom: 0}
+
+				dd {
+					flex: 0 0 calc(100% - var(--dtsize) - 25px);
+					margin: 0 0 20px 0;
+				}
+
+				dd:last-child {margin-bottom: 0}
 			}
 
-			dt:last-child {margin-bottom: 0}
-
-			dd {
-				flex: 0 0 calc(100% - var(--dtsize) - 25px);
-				margin: 0 0 20px 0;
+			@media (min-width: 1024px) {
+				body {font-size: 1.5em}
 			}
 
-			dd:last-child {margin-bottom: 0}
 		</style>
 	</head>
 	<body>
