@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="1000"
+   height="290"
+   viewBox="0 0 290 290"
+   fill="none"
+   version="1.1"
+   id="svg10">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M85 55H60C57.2386 55 55 57.2386 55 60V80C55 82.7614 57.2386 85 60 85H85H115H140C142.761 85 145 87.2386 145 90V115V140C145 142.761 147.239 145 150 145H175H205H230C232.761 145 235 142.761 235 140V115V85V60C235 57.2386 232.761 55 230 55H210C207.239 55 205 57.2386 205 60V85V110C205 112.761 202.761 115 200 115H180C177.239 115 175 112.761 175 110V85V60C175 57.2386 172.761 55 170 55H145H115H85Z"
+     fill="#C4C4C4"
+     style="transform: rotate(-90deg) translateY(-400px);"
+     id="path2" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M85 115H60C57.2386 115 55 117.239 55 120V140C55 142.761 57.2386 145 60 145H85H110C112.761 145 115 142.761 115 140V120C115 117.239 112.761 115 110 115H85Z"
+     fill="#C4C4C4"
+     style="transform: rotate(-90deg) translateY(0px);"
+     id="path4" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M85 180C85 177.239 82.7614 175 80 175H60C57.2386 175 55 177.239 55 180V200C55 202.761 57.2386 205 60 205H85V230C85 232.761 87.2386 235 90 235H115H145H175H200C202.761 235 205 232.761 205 230V205H230C232.761 205 235 202.761 235 200V180C235 177.239 232.761 175 230 175H210C207.239 175 205 177.239 205 180V205H175H145H115H85V180Z"
+     fill="#C4C4C4"
+     style="transform: rotate(-90deg) translateY(400px);"
+     id="path6" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 60,115 c -2.7614,0 -5,2.2386 -5,5 v 20 c 0,2.7614 2.2386,5 5,5 56.66667,0 113.33333,0 170,0 2.761,0 5,-2.239 5,-5 v -20 c 0,-2.7614 -2.239,-5 -5,-5 -56.66667,0 -113.33333,0 -170,0 z"
+     fill="#c4c4c4"
+     id="path840" />
+</svg>
