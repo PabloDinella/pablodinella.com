@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Expletus Sans", system-ui, sans-serif;
+  }
+
+  html {
+    color: #565656;
+    background: radial-gradient(
+        109.23% 109.23% at 38.23% 102.78%,
+        rgba(185, 149, 96, 0.2) 0%,
+        rgba(255, 242, 223, 0.2) 100%
+      ),
+      #ffffff;
+  }
+}
+
+.papa-underline {
+  border-bottom: 1px dashed;
+}
+
+.marquee {
+  animation: cssmarquee 10s linear infinite;
+}
+
+@keyframes cssmarquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
