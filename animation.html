@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
       rel="stylesheet"
     />
 
@@ -101,8 +107,9 @@
         translateX: 54,
         translateY: {
           value: -586,
-          delay: 500,
+          delay: 300,
         },
+        duration: 600,
       })
       .add(
         {
@@ -112,8 +119,9 @@
           translateX: 54,
           translateY: {
             value: -163,
-            delay: 500,
+            delay: 300,
           },
+          duration: 600,
         },
         0
       )
@@ -125,8 +133,9 @@
           translateX: 54,
           translateY: {
             value: 265,
-            delay: 500,
+            delay: 300,
           },
+          duration: 600,
         },
         0
       )
@@ -134,15 +143,17 @@
         {
           targets: ["path.r", "path.d-bar"],
           opacity: 0.5,
+          duration: 600,
         },
-        500
+        300
       )
       .add(
         {
           targets: ["text"],
-            opacity: 1,
+          opacity: 1,
+          duration: 600,
         },
-        500
+        300
       );
 
     document.querySelector("svg").onmouseenter = () => {

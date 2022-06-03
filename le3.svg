@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="290"
+   viewBox="0 0 290 290"
+   fill="none"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="le3.svg"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview205"
+     showgrid="false"
+     inkscape:zoom="1.2051926"
+     inkscape:cx="501.79828"
+     inkscape:cy="196.36704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10"
+     showborder="false" />
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <g
+     id="g334"
+     transform="matrix(0.56754228,0,0,0.56754228,52.701616,44.31329)"
+     style="fill:#666666;stroke-width:1.76199">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m -52.837403,215.80277 v 15.99769 c 0,1.76704 1.432497,3.19954 3.199539,3.19954 h 12.798154 c 1.767041,0 3.199538,-1.4325 3.199538,-3.19954 v -15.99769 -19.19723 -15.9977 c 0,-1.76678 1.432498,-3.19953 3.199539,-3.19953 H -14.44294 1.5547524 c 1.7667852,0 3.1995386,-1.43276 3.1995386,-3.19954 v -15.9977 -19.19723 -15.99769 c 0,-1.76678 -1.4327534,-3.19954 -3.1995386,-3.19954 H -14.44294 -33.640172 -49.637864 c -1.767042,0 -3.199539,1.43276 -3.199539,3.19954 v 12.79815 c 0,1.76679 1.432497,3.19954 3.199539,3.19954 h 15.997692 15.997693 c 1.766785,0 3.199539,1.43276 3.199539,3.19954 v 12.79816 c 0,1.76678 -1.432754,3.19953 -3.199539,3.19953 h -15.997693 -15.997692 c -1.767042,0 -3.199539,1.43276 -3.199539,3.19954 v 15.9977 19.19723 z"
+       fill="#c4c4c4"
+       id="path330"
+       style="fill:#666666;stroke-width:1.76199" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m -14.44294,215.80277 v 15.99769 c 0,1.76704 1.432753,3.19954 3.199538,3.19954 H 1.5547524 c 1.7667852,0 3.1995386,-1.4325 3.1995386,-3.19954 v -15.99769 -15.99769 c 0,-1.76679 -1.4327534,-3.19954 -3.1995386,-3.19954 H -11.243402 c -1.766785,0 -3.199538,1.43275 -3.199538,3.19954 z"
+       fill="#c4c4c4"
+       id="path332"
+       style="fill:#b3b3b3;stroke-width:1.76199" />
+  </g>
+  <g
+     id="g340"
+     transform="matrix(0,-0.36317468,0.36317468,0,208.13802,197.66033)"
+     style="fill:#666666;stroke-width:2.7535">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 85,180 c 0,-2.761 -2.2386,-5 -5,-5 H 60 c -2.7614,0 -5,2.239 -5,5 v 20 c 0,2.761 2.2386,5 5,5 h 25 v 25 c 0,2.761 2.2386,5 5,5 h 25 30 30 25 c 2.761,0 5,-2.239 5,-5 v -25 h 25 c 2.761,0 5,-2.239 5,-5 v -20 c 0,-2.761 -2.239,-5 -5,-5 h -20 c -2.761,0 -5,2.239 -5,5 v 25 H 175 145 115 85 Z"
+       fill="#c4c4c4"
+       id="path336"
+       style="fill:#666666;stroke-width:4.30296" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 60,130.30768 c -2.7614,0 -5,2.2386 -5,5 v 20 c 0,2.7614 2.2386,5 5,5 56.66667,0 113.33333,0 170,0 2.761,0 5,-2.239 5,-5 v -20 c 0,-2.7614 -2.239,-5 -5,-5 -56.66667,0 -113.33333,0 -170,0 z"
+       fill="#c4c4c4"
+       id="path338"
+       style="fill:#b3b3b3;stroke-width:4.30296" />
+  </g>
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m -186.02063,166.79048 v 9.07937 c 0,1.00286 0.81301,1.81587 1.81588,1.81587 h 7.26349 c 1.00287,0 1.81587,-0.81301 1.81587,-1.81587 v -9.07937 -10.89524 -9.07937 c 0,-1.00272 0.81301,-1.81586 1.81588,-1.81586 h 9.07937 9.07937 c 1.00272,0 1.81587,-0.81315 1.81587,-1.81587 v -9.07938 -10.89523 -9.07938 c 0,-1.00272 -0.81315,-1.81587 -1.81587,-1.81587 h -9.07937 -10.89525 -9.07936 c -1.00287,0 -1.81588,0.81315 -1.81588,1.81587 v 7.2635 c 0,1.00272 0.81301,1.81588 1.81588,1.81588 h 9.07936 9.07937 c 1.00272,0 1.81588,0.81315 1.81588,1.81587 v 7.2635 c 0,1.00272 -0.81316,1.81586 -1.81588,1.81586 h -9.07937 -9.07936 c -1.00287,0 -1.81588,0.81315 -1.81588,1.81588 v 9.07937 10.89523 z"
+     fill="#c4c4c4"
+     id="path342"
+     style="fill:#666666;stroke-width:0.999997" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:71.301px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+     x="-151.06479"
+     y="175.06529"
+     id="text346"><tspan
+       sodipodi:role="line"
+       id="tspan344"
+       x="-151.06479"
+       y="175.06529"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display';stroke-width:1">ablo</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:71.301px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+     x="59.372154"
+     y="175.06529"
+     id="text350"><tspan
+       sodipodi:role="line"
+       id="tspan348"
+       x="59.372154"
+       y="175.06529"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display';stroke-width:1">ocha</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:71.301px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+     x="299.65314"
+     y="175.06529"
+     id="text354"><tspan
+       sodipodi:role="line"
+       id="tspan352"
+       x="299.65314"
+       y="175.06529"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display';stroke-width:1">inella</tspan></text>
+</svg>
