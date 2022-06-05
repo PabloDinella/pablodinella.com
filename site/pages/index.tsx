@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import clsx from "clsx";
 import { useState } from "react";
+import dayjs from "dayjs";
 
 const Home: NextPage = () => {
   const [showMore, setShowMore] = useState(false);
@@ -16,24 +17,83 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center px-20 ">
-        <h1 className="text-5xl text-center mb-12 mt-24">Olá</h1>
+      <main className="flex-1 px-8 sm:px-20">
+        <h1 className="text-5xl text-center my-12 sm:mt-24">Olá</h1>
 
-        <p className="mt-3 text-2xl">
-          Meu nome é <strong>Pablo</strong>, e esse não é um digital garden, só
-          uma boa e velha página pessoal mesmo.
+        <p className="mt-3 text-2xl max-w-3xl w-full">
+          Meu nome é <strong>Pablo</strong>.
         </p>
 
-        <p className={clsx("mt-3 text-2xl", { hidden: !showMore })}>
-          lorem ipsum
+        <p className="mt-3 text-2xl max-w-3xl w-full">
+          Lembra da era das páginas pessoais dos anos 2000? Hoje em dia alguns
+          chamam de <span className="italic">digital garden</span>, mas prefiro
+          chamar de página pessoal mesmo. E essa é a minha :)
         </p>
 
-        <p
-          className="mt-3 text-2xl papa-underline hover:cursor-pointer hover:text-hover"
-          onClick={toggleShowMore}
+        <p className="my-3 text-2xl text-center" onClick={toggleShowMore}>
+          <a
+            className="papa-underline hover:cursor-pointer hover:text-hover"
+            href="#"
+          >
+            mais sobre mim
+          </a>
+        </p>
+
+        <div
+          className={clsx(
+            {
+              hidden: !showMore,
+            },
+            "mb-14"
+          )}
         >
-          <a href="#">mais sobre mim</a>
-        </p>
+          <h2 className="text-2xl mt-9 mb-3">Trabalho</h2>
+
+          <p className={"mt-3 text-2xl max-w-3xl w-full"}>
+            Hoje eu trabalho na Elven Works, com JS/TS, node, React, GraphQL,
+            Kafka, e Go. Tinha um pouco de relutância em usar o termo engenheiro
+            de software, até que inesperadamente{" "}
+            <a
+              className="papa-underline hover:cursor-pointer hover:text-hover"
+              href="https://twitter.com/pablordinella/status/1491556434261196805"
+              target="_blank"
+              rel="noopener"
+            >
+              minha própria mãe usou esse termo
+            </a>{" "}
+            😆
+          </p>
+
+          <h2 className="text-2xl mt-9 mb-3">Entrementes...</h2>
+
+          <p className={"mt-3 text-2xl max-w-3xl w-full"}>
+            Às vezes produzo conteúdo no YouTube (quero voltar a fazer lives na
+            Twitch também). Além disso estou gostando de ler alguns livros
+            clássicos (no momento The Mythical Man-Month), e estudar outras
+            linguagens (quero fazer um projeto em Clojure + Datahike (Prolog) ou
+            alguma outra linguagem funcional + DataScript). Me encanta o fato da
+            computação já ter sido em boa parte resolvida já nos anos 70-90, e
+            hoje só readaptamos os mesmos conceitos.
+          </p>
+
+          <h2 className="text-2xl mt-9 mb-3">Jogos</h2>
+
+          <p className={"mt-3 text-2xl max-w-3xl w-full"}>
+            Também gosto de jogar CS:GO, TF2 e Sea of Thieves, e também faço
+            lives e vídeos de vez em quando.
+          </p>
+
+          <h2 className="text-2xl mt-9 mb-3">Vida pessoal</h2>
+
+          <p className={"mt-3 text-2xl max-w-3xl w-full"}>
+            Tenho {dayjs().diff(dayjs("1994-07-14"), "years")} anos (faço
+            aniversário no mesmo dia que minha mãe), sou casado com a
+            @kaformentini, e temos um pinscher e um chihuahua misturado com
+            pinscher.
+          </p>
+
+          <p className={"mt-3 text-2xl max-w-3xl w-full"}>Salvo por graça.</p>
+        </div>
 
         {/* <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
@@ -78,9 +138,9 @@ const Home: NextPage = () => {
         </div> */}
       </main>
 
-      <footer className="flex w-full items-center justify-center">
-        <p className="marquee">
-          O que seria de uma página pessoal sem um marquee xD
+      <footer className="w-full ">
+        <p className="marquee max-w-3xl">
+          <span>Marquees são nostálgicos :)</span>
         </p>
       </footer>
     </div>
