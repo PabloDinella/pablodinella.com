@@ -10,11 +10,11 @@ module.exports = {
       fontFamily: {
         sans: ['"Red Hat Display"', ...defaultTheme.fontFamily.sans],
       },
-    },
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      hover: "#000",
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        hover: "#000",
+      },
     },
   },
   plugins: [],
