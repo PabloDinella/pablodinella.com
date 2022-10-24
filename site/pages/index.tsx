@@ -10,6 +10,8 @@ const Home: NextPage = () => {
   const [showMore, setShowMore] = useState(false);
 
   const toggleShowMore = () => setShowMore((currentValue) => !currentValue);
+  
+  // TODO: just a note to remember: I want to do something related to the day cycle, i.e.: when its morning, light theme, then going darker depending on day time.
 
   return (
     <div className="min-h-screen py-2 flex flex-col">
