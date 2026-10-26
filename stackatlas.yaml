@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/PabloDinella/stackatlas/main/schema/stackatlas.schema.json
+atlas: github:PabloDinella/my-atlas/atlas.yaml
+owner: Own products
+
+projects:
+  - name: pablodinella.com
+    type: website
+    url: https://pablodinella.com
+    domains: [pablodinella.com]
+    resources:
+      - github/pages
